@@ -62,25 +62,15 @@
 * Softplus AF solves the major problem, don't have find derivative of zero.
 
 ### 9. Softmax function:
+* Softmax AF is used for multiclass classification problem statement, in the output layer with more than 2 neurons.
+* Calculates the probablity of each of the input classes.
+* Softmax is differentfrom the normal max function: the max function only outputs the largest value, and Softmax ensures that smaller values have a smaller probability and will not be discarded directly.
+
  
+## these activation functions have theirown advantages and disadvantages. There is no statement that indicates which ones are not working, andwhich activation functions are good. All the good and badmust be obtained by experiments.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Some Terminologies to note:
+#### Some Terminologies to note:
 
 #### Gradient Descent:
 * Loss is computed by comparing y_actual and y_prediction (eg. (y-y_hat)^2) from output of neural network. In order to reduce loss, Optimizers are used and Gradient Descent is one of the optimizer.
