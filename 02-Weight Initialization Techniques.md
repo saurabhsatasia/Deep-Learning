@@ -3,7 +3,7 @@
 ### Key points:
 1. Initialized weights should not be very very small, shouls also not be very very large. Small weights causes Vanishing problems. High value of weights causes Exploding gradient problem.
 2. Initialized weights should NOT be equal/same. 
-3. Initialized weights shouls have good variance.
+3. Initialized weights should have good variance.
 4. Weights must initialized in a proper way to avoid vanishing gradient problem and exploding gradient problem.
 
 ### 1. Uniform Distribution:
