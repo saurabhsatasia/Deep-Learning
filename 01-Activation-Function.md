@@ -86,5 +86,5 @@ This scenario is called as Vanishing Gradient problem.
 
 #### Exploding Gradient Problem:
 * Exploding gradient problem occurs mainly because of higher values of initialized weights. 
-* During Back Propagation, because of high value of initialized weights, the calculated value of gradient will also be very high andthe new calculated weights will vary a lot when compared to existing weights. As a result, the gradient descent value will never converge to global minima, instead it will be jumping left and right in the gradient descent curve.
+* During Back Propagation, because of high value of initialized weights, the calculated value of gradient will also be very high and the new calculated weights will vary a lot when compared to existing weights. As a result, the gradient descent value will never converge to global minima, instead it will be jumping left and right in the gradient descent curve.
 * That's why it is important to use weight initialization techniques.
